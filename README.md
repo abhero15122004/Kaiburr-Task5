@@ -485,7 +485,7 @@ This matrix shows how well the model predicted each class versus the actual clas
 
 ## 4. Sample Predictions
 
-(You can copy and paste the text output from the `predict_new_complaints` method here)
+![Sample Predictions made by model (Linear SVM)](output3.png)
 
 if __name__ == "__main__":
     main()
