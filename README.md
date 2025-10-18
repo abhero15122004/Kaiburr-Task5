@@ -485,7 +485,7 @@ This matrix shows how well the model predicted each class versus the actual clas
 
 ## 4. Sample Predictions
 
-![Sample Predictions made by model (Linear SVM)](output3.png)
+![Sample Predictions made by model (Linear SVM)](Output3.png)
 
 if __name__ == "__main__":
     main()
