@@ -452,5 +452,40 @@ def main():
     print("=== TASK COMPLETED ===")
     print(f"Best model: {best_name}")
 
+    # Kaiburr Data Science Task: Complaint Classifier
+
+This project involves classifying consumer complaints into four categories using text classification techniques.
+
+## 1. Exploratory Data Analysis (EDA)
+
+The following chart illustrates the distribution of complaint categories and text length characteristics in the processed dataset.
+
+![EDA Visualizations: Category and Word Count Distributions](Output.png)
+
+## 2. Model Training and Comparison
+
+Two models, Multinomial Naive Bayes and Linear SVM, were trained and evaluated on TF-IDF features.
+
+| Model | Accuracy | F1 Macro | F1 Weighted |
+|---|---|---|---|
+| Multinomial Naive Bayes | 0.8250 | 0.8012 | 0.8245 |
+| **Linear SVM** | **0.8675** | **0.8581** | **0.8672** |
+
+## 3. Model Evaluation
+
+The **Linear SVM** model achieved the highest performance. Its performance on the test set is detailed in the classification report and the confusion matrix below.
+
+### Confusion Matrix
+
+This matrix shows how well the model predicted each class versus the actual classes.
+
+![Confusion Matrix for the Best Model (Linear SVM)](output2.png)
+
+***
+
+## 4. Sample Predictions
+
+(You can copy and paste the text output from the `predict_new_complaints` method here)
+
 if __name__ == "__main__":
     main()
